@@ -1,3 +1,5 @@
+@use 'variables' as *;
+@use 'reset' as *;
 body{
     margin: 0;
     height: 300vh;
@@ -7,4 +9,8 @@ header{
  height: 100vh;
  display: flex;
  flex-direction: column;
+}
+main{
+    height: 10vh;
+    background: linear-gradient(90deg, $color1 0%, $color2 35%, $color3 100%);
 }
